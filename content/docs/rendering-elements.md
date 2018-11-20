@@ -10,21 +10,21 @@ next: components-and-props.html
 
 Elements are the smallest building blocks of React apps.
 
-An element describes what you want to see on the screen:
+An element describes what you want to see on the screen:元素描述了你在屏幕上所看到的内容：
 
 ```js
 const element = <h1>Hello, world</h1>;
 ```
 
-Unlike browser DOM elements, React elements are plain objects, and are cheap to create. React DOM takes care of updating the DOM to match the React elements.
+Unlike browser DOM elements, React elements are plain objects, and are cheap to create. 与浏览器DOM元素不同，React元素是普通的对象，易于创建。React DOM takes care of updating the DOM to match the React elements.React DOM接管更新DOM匹配React元素。
 
 >**Note:**
 >
->One might confuse elements with a more widely known concept of "components". We will introduce components in the [next section](/docs/components-and-props.html). Elements are what components are "made of", and we encourage you to read this section before jumping ahead.
+>One might confuse elements with a more widely known concept of "components".可能会混淆组件和元素的概念。 We will introduce components in the [next section](/docs/components-and-props.html). Elements are what components are "made of", and we encourage you to read this section before jumping ahead.组件是由元素组成
 
 ## Rendering an Element into the DOM
 
-Let's say there is a `<div>` somewhere in your HTML file:
+Let's say there is a `<div>` somewhere in your HTML file:例如在HTML某处有个`<div>`元素
 
 ```html
 <div id="root"></div>
